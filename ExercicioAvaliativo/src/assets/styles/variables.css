@@ -5,20 +5,76 @@
 }
 
 :root {
-    --primary-color: #2d5016;
-    --primary-light: #5a8f3d;
-    --primary-bg: #f3f7f3;
-    --accent-color: #A7D096;
-    --border-color: #E5F2E5;
-    --text-dark: #1a1a1a;
+    /* Colors */
+    --primary-color: #2D5016;
+    --primary-light: #5A8F3D;
+    --accent-color: #8FBE5E;
+    --primary-bg: #F5F7F2;
+    --text-dark: #1A1E12;
     --text-medium: #4a4a4a;
-    --text-light: #ffffff;
-    --shadow-soft: 0 2px 15px rgba(45, 80, 22, 0.08);
-    --shadow-medium: 0 8px 30px rgba(45, 80, 22, 0.12);
-    --shadow-strong: 0 15px 40px rgba(45, 80, 22, 0.18);
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --border-radius: 16px;
+    --text-light: #FFFFFF;
+    --border-color: #E2E8DC;
+
+    /* Typography */
+    --font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-family-heading: 'GaramondBold', serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+
+    /* Borders */
+    --border-radius: 12px;
     --border-radius-small: 8px;
+    --border-width: 1px;
+
+    /* Shadows */
+    --shadow-soft: 0 4px 6px rgba(45, 80, 22, 0.05);
+    --shadow-medium: 0 8px 15px rgba(45, 80, 22, 0.1);
+    --shadow-strong: 0 15px 30px rgba(45, 80, 22, 0.15);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s ease;
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Z-index layers */
+    --z-index-dropdown: 1000;
+    --z-index-sticky: 1020;
+    --z-index-fixed: 1030;
+    --z-index-modal-backdrop: 1040;
+    --z-index-modal: 1050;
+    --z-index-popover: 1060;
+    --z-index-tooltip: 1070;
+
+    /* Container */
+    --container-max-width: 1200px;
+    --container-padding: 1rem;
+
+    /* Grid */
+    --grid-gap: 2rem;
+    --grid-columns: 12;
+
+    /* Breakpoints */
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --primary-color: #5A8F3D;
+    --primary-light: #8FBE5E;
+    --accent-color: #2D5016;
+    --primary-bg: #1A1E12;
+    --text-dark: #FFFFFF;
+    --text-light: #1A1E12;
+    --border-color: #2D5016;
 }
 
 * {
@@ -29,11 +85,12 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: var(--font-size-base);
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
+    font-family: var(--font-family-base);
+    line-height: var(--line-height-base);
     color: var(--text-dark);
     background-color: var(--primary-bg);
     overflow-x: hidden;
