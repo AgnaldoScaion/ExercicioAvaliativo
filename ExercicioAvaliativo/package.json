@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.1",
+    "vue-router": "^4.0.13"
   }
 }
