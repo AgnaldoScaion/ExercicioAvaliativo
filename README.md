@@ -62,6 +62,30 @@ npm run preview  # Preview do build
 - **Data de Entrega**: 11 de setembro de 2025
 - **Objetivo**: Exercício acadêmico Vue.js
 
+## 🤝 Integrantes
+
+Agradecimentos aos que colaboraram com este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/184535711?v=4" width="100px;" alt="Agnaldo"/><br>
+      <sub><b>Agnaldo Scaion</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/173831145?v=4" width="100px;" alt="Bianca"/><br>
+      <sub><b>Bianca Blanco</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/184536272?v=4" width="100px;" alt="Erick"/><br>
+      <sub><b>Erick Andrade</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/173831469?v=4" width="100px;" alt="Duda"/><br>
+      <sub><b>Maria Eduarda</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 <div align="center">
